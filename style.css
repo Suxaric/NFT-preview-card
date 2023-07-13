@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    border: 1px rgb(238, 26, 26) solid;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 375px;
+}
+
+.image img {
+    height: auto;
+    width: 100%;
+
+}
+
+.content {
+    border: 1px green solid;
+
+}
+
+.price {
+    border: 1px green solid;
+
+}
+
+.price-eth {
+    border: 1px green solid;
+
+}
+
+.price-time {
+    border: 1px green solid;
+
+}
+
+.line {
+    border: 1px green solid;
+
+}
+
+.avatar {
+    border: 1px green solid;
+
+}
