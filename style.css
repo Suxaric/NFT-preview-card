@@ -10,32 +10,75 @@ body {
     margin-right: auto;
     margin-left: auto;
     width: 375px;
+    border-radius: 15px;
+       
 }
 
 .image img {
     height: auto;
-    width: 100%;
-
-}
+    width: 335px; /*Ширина определена 375 ширина моб.изобр - 40px отступы*/
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    }
 
 .content {
     border: 1px green solid;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    }
 
+.content h1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+}
+
+.content p {
+    font-family: Outfit, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
 }
 
 .price {
-    border: 1px green solid;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: start;
+}
+
+.price-img {
+    padding-top: 20px;
 
 }
 
 .price-eth {
-    border: 1px green solid;
+    font-family: Outfit, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: hsl(178, 100%, 50%);
+    padding-left: 8px;
 
 }
 
-.price-time {
-    border: 1px green solid;
+.price-clock {
+    padding-top: 21px;
+   
+}
 
+.price-time {
+    font-family: Outfit, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+   
 }
 
 .line {
