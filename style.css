@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
-    background-color: hsl(217, 54%, 11%);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body {
+    font-family: Outfit, sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    }
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
 
 .container {
+    max-width: 375px; /*Посмотреть результат на 350px*/
     border: 1px rgb(238, 26, 26) solid;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
-    width: 375px;
     border-radius: 15px;
        
 }
@@ -47,8 +56,8 @@ body {
 }
 
 .price {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
+    /* display: grid;
+    grid-template-columns: repeat(4, auto); */
     padding-right: 20px;
     padding-left: 20px;
     justify-content: start;
@@ -56,30 +65,21 @@ body {
 }
 
 .price-img {
-    padding-top: 20px;
-
-}
-
-.price-eth {
+    /* padding-top: 20px; */
     font-family: Outfit, sans-serif;
     font-weight: 300;
     font-size: 18px;
     color: hsl(178, 100%, 50%);
-    padding-left: 8px;
+    /* padding-left: 8px; */
 
 }
 
 .price-clock {
-    padding-top: 21px;
-   
-}
-
-.price-time {
+    /* padding-top: 21px; */
     font-family: Outfit, sans-serif;
     font-weight: 300;
     font-size: 18px;
     color: hsl(215, 51%, 70%);
-   
 }
 
 .line {
@@ -99,10 +99,7 @@ body {
 
 .avatar-img img {
     width: 25%;
-    padding-top: 14px;
-    }
-
-.avatar-text p {
+    /* padding-top: 14px; */
     font-family: Outfit, sans-serif;
     font-weight: 300;
     font-size: 18px;
